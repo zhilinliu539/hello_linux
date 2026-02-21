@@ -1,8 +1,57 @@
-# 忽略所有中间目标文件
+
+# Prerequisites
+*.d
+
+# Object files
 *.o
+*.ko
+*.obj
+*.elf
 
-# 忽略最终的可执行文件（根据你的 TARGET 名字改）
-hello
+# Linker output
+*.ilk
+*.map
+*.exp
 
-# 忽略常见的隐藏缓存
-.cache/
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Kernel Module Compile Results
+*.mod*
+*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+Mkfile.old
+dkms.conf
+
+# debug information files
+*.dwo
+>>>>>>> 803575fbf8a4b2d8323a48a898dbc25433a6a8d8
